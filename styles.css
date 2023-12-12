@@ -12,16 +12,6 @@ a{
 	text-decoration: 1px underline #1877f2;
 }
 
-/* form{
-	border-radius: 5px;
-	display:flex;
-	width: 300px;
-	padding: 20px;
-	box-shadow: rgb(204, 204, 204) 0px 0px 10px 0px;
-	flex-direction: column;
-	gap: 10px;
-} */
-
 input{
 	border: 1px solid rgb(204, 204, 204);
 	border-radius: 5px;
@@ -35,6 +25,5 @@ button{
 	flex-grow: 1;
 }
 .signup{
-/* 	align-self: center; */
 	background-color: #42b72a;
 }
