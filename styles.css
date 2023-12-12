@@ -8,7 +8,12 @@ body{
 	margin-top: 70px; 
 	display:inline-block;
 }
-
+/* .right{
+	text-align: center;
+	background-color: rgb(255,255,255);
+	box-shadow:0 0 10px #ccc;
+	border-radius: 5px;
+} */
 form{
 	display:flex;
 	width: 300px;
@@ -33,5 +38,6 @@ button{
 	flex-grow: 1;
 }
 .signup{
+/* 	align-self: center; */
 	background-color: #42b72a;
 }
