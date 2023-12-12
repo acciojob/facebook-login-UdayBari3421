@@ -11,25 +11,20 @@ body{
 a{
 	text-decoration: 1px underline #1877f2;
 }
-/* .right{
-	text-align: center;
-	background-color: rgb(255,255,255);
-	box-shadow:0 0 10px #ccc;
-	border-radius: 5px;
-} */
+
 form{
+	background: rgb(255,255,255);
+	border-radius: 5px;
 	display:flex;
 	width: 300px;
-	background-color: rgb(255,255,255);
 	padding: 20px;
-	border-radius: 5px;
-	box-shadow:0 0 10px #ccc;
+	box-shadow: rgb(204, 204, 204) 0px 0px 10px 0px;
 	flex-direction: column;
 	gap: 10px;
 }
 
 input{
-	border: 1px solid #ccc;
+	border: 1px solid rgb(204, 204, 204);
 	border-radius: 5px;
 	padding: 10px;
 }
