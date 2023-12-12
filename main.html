@@ -2,8 +2,12 @@
   <head>
     <title>Facebook Login</title>
   </head>
-  <body>
-    <div class="left">
+  <body style="background-color: #f6f6f6;
+	display: flex;
+	justify-content:center;">
+    <div class="left" style="width: 450px;
+			margin-top: 70px; 
+			display:inline-block;">
 		<img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook logo">
 		<p>Facebook helps you connect and share with the people in your life.</p>
 	</div>
@@ -14,12 +18,26 @@
 					gap: 10px; padding: 20px; 
 					flex-direction: column; 
 					box-shadow: rgb(204, 204, 204) 0px 0px 10px 0px;">
-			<input style="padding: 10px; border: 1px solid rgb(204, 204, 204); border-radius: 5px;" type="text" id="email" placeholder="Email address or phone number">
-			<input type="password" id="password" placeholder="Password">
-			<button type="submit" id="login">Log in</button>
-			<a href="#">Forgotten account?</a>
+			<input style="padding: 10px; 
+						border: 1px solid rgb(204, 204, 204); 
+						border-radius: 5px;" type="text" id="email" placeholder="Email address or phone number">
+			<input type="password" id="password" placeholder="Password" style="border: 1px solid rgb(204, 204, 204);
+				border-radius: 5px;
+				padding: 10px;">
+			<button type="submit" id="login" style="
+				color: white;
+				background-color: #1877f2;
+				border-radius: 5px;
+				padding: 10px 20px;
+				flex-grow: 1;">
+				Log in</button>
+			<a href="#" style="text-decoration: 1px underline #1877f2;">Forgotten account?</a>
 		</form>
-		<button class="signup">Create new account</button>
+		<button class="signup" style="border-radius: 5px;
+			padding: 10px 20px;
+			flex-grow: 1;
+			background-color: #42b72a;">
+			Create new account</button>
 	</div>
   </body>
 </html>
