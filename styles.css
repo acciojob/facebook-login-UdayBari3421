@@ -32,6 +32,6 @@ button{
 	padding: 10px 20px;
 	flex-grow: 1;
 }
-#create{
+.signup{
 	background-color: #43b72a;
 }
