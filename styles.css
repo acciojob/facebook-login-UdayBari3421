@@ -13,7 +13,6 @@ a{
 }
 
 form{
-	background-color: rgb(255,255,255) !important;
 	border-radius: 5px;
 	display:flex;
 	width: 300px;
